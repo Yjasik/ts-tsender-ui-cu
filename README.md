@@ -24,7 +24,6 @@ You'll need a .env.local the following environment variables:
 
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID: Project ID from reown cloud
 Setup
-git clone https://github.com/cyfrin/tsender-ui
 cd tsender-ui
 pnpm install
 pnpm anvil
