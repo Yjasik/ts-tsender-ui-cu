@@ -1,0 +1,40 @@
+{
+  "name": "ts-tsender-ui-cu",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "anvil": "anvil --load-state tsender-deployed.json",
+    "test:cache": "npm synpress",
+    "test:e2e": "npm exec playwright test",
+    "test": "vitest",
+    "test:unit": "vitest run src/utils/calculateTotal/calculateTotal.test.ts"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.9",
+    "@tanstack/react-query": "^5.90.5",
+    "@wagmi/core": "^2.22.1",
+    "next": "15.5.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
+    "viem": "^2.38.3",
+    "wagmi": "^2.18.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@synthetixio/synpress": "^4.1.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "jsdom": "^27.0.1",
+    "playwright": "^1.56.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^4.0.3"
+  }
+}
