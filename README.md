@@ -15,8 +15,8 @@ Getting Started
 Requirements
 node
 You'll know you've installed it right if you can run node --version and get a response like v23.0.1
-pnpm
-You'll know you've installed it right if you can run pnpm --version and get a response like 10.1.0
+npm
+You'll know you've installed it right if you can run npm --version and get a response like 10.1.0
 git
 You'll know you've installed it right if you can run git --version and get a response like git version 2.33.0
 Environment Variables
@@ -31,7 +31,7 @@ You'll want to make sure you have a Metamask/Rabby wallet connected to your anvi
 
 Then, in a second browser run:
 
-pnpm run dev
+npm run dev
 Testing
 Unit
 pnpm test:unit
@@ -40,10 +40,10 @@ Playwright should also install the browsers needed to run tests.
 
 To test e2e, do the following
 
-pnpm cache
+npm cache
 Then run:
 
-pnpm test:e2e
+npm test:e2e
 This will throw an error like:
 
 Error: Cache for 08a20e3c7fc77e6ae298 does not exist. Create it first!
@@ -53,5 +53,5 @@ In your .cache-synpress folder, rename the folder that isn't metamask-chrome-***
 
 Then, you should be able to run:
 
-pnpm test:e2e
+npm test:e2e
 And it'll work!
