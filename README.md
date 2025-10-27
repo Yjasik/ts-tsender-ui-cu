@@ -25,8 +25,8 @@ You'll need a .env.local the following environment variables:
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID: Project ID from reown cloud
 Setup
 cd tsender-ui
-pnpm install
-pnpm anvil
+npm install
+npm anvil
 You'll want to make sure you have a Metamask/Rabby wallet connected to your anvil instance. Ideally you're connected to the wallet that comes with the default anvil instance. This will have some mock tokens in it.
 
 Then, in a second browser run:
